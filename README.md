@@ -13,7 +13,7 @@ Before linking, ensure `stow` is installed on your machine.
 
 1. Clone this repository directly into a `.dotfiles` directory in your home folder:
    ```bash
-   git clone git@github.com:aad8ya/dotfiles.git ~/.dotfiles
+   git clone https://github.com/aad8ya/dotfiles.git ~/.dotfiles
    ```
 
 2. Navigate into the repository:
