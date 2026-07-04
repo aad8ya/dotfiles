@@ -9,6 +9,16 @@ Before linking, ensure `stow` is installed on your machine.
 * **macOS:** `brew install stow`
 * **Ubuntu/Debian:** `sudo apt install stow`
 
+The tmux theme (`tmux-powerkit`) requires **Bash 5.0+**. Check with:
+
+```bash
+which bash
+bash --version
+```
+
+macOS ships Bash 3.2 by default.
+Fix: `brew install bash`, then ensure `/opt/homebrew/bin` (or `/usr/local/bin` on Intel) is ahead of `/bin` on your `PATH`, and restart tmux with `tmux kill-server`.
+
 ## Installation / Cloning
 
 1. Clone this repository directly into a `.dotfiles` directory in your home folder:
