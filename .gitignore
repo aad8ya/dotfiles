@@ -1,0 +1,7 @@
+# Claude
+CLAUDE.md
+.claude/
+
+# Tmux plugins (managed by TPM)
+tmux/.tmux/plugins/*
+!tmux/.tmux/plugins/.gitkeep
